@@ -32,4 +32,9 @@ public class Calculator {
     public void setResult(double result) {
         this.result = result;
     }
+
+    @Override
+    public String toString() {
+        return num1 + " + " + num2 + " = " + result;
+    }
 }
