@@ -5,7 +5,7 @@ public class Calculator {
     private double num2;
     private double result;
 
-    Calculator(){
+    public Calculator(){
 
     }
 
