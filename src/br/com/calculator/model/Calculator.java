@@ -42,6 +42,19 @@ public class Calculator {
         this.result = result;
     }
 
+    public double calculate(double num1, String operator, double num2){
+        switch (operator){
+            case "+": return num1 + num2;
+            case "-": return num1 - num2;
+            case "*": return num1 * num2;
+            case "/":
+                if (num2 == 0) throw new ArithmeticException("Divisão por zero");
+                return num1 / num2;
+            default:
+                throw new IllegalArgumentException("Operador inválido\n");
+        }
+    }
+
     @Override
     public String toString() {
         return num1 + " " + operator + " " + num2 + " = " + result;
