@@ -14,6 +14,8 @@ public class CalculatorRun {
         calculator.setOperator(getOperator(sc));
         calculator.setNum2(getNum2(sc));
 
+        // Executar o metodo calculate()
+        // Imprimir no console
     }
 
     public static double getNum1(Scanner sc) {
