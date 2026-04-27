@@ -15,7 +15,7 @@ public class CalculatorRun {
         calculator.setNum2(getNum2(sc));
 
         // Executar o metodo calculate()
-        // Imprimir no console
+        // Executar o metodo toString()
     }
 
     public static double getNum1(Scanner sc) {
