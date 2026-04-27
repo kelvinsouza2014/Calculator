@@ -44,6 +44,6 @@ public class Calculator {
 
     @Override
     public String toString() {
-        return num1 + " + " + num2 + " = " + result;
+        return num1 + " " + operator + " " + num2 + " = " + result;
     }
 }
