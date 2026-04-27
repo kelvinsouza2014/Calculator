@@ -2,6 +2,7 @@ package br.com.calculator.model;
 
 public class Calculator {
     private double num1;
+    private String operator;
     private double num2;
     private double result;
 
@@ -15,6 +16,14 @@ public class Calculator {
 
     public void setNum1(double num1) {
         this.num1 = num1;
+    }
+
+    public String getOperator() {
+        return operator;
+    }
+
+    public void setOperator(String operator) {
+        this.operator = operator;
     }
 
     public double getNum2() {
