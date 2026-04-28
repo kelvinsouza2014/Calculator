@@ -44,12 +44,12 @@ public class Calculator {
 
     public double calculate(double num1, String operator, double num2){
         switch (operator){
-            case "+": return num1 + num2;
-            case "-": return num1 - num2;
-            case "*": return num1 * num2;
+            case "+": return result = num1 + num2;
+            case "-": return result = num1 - num2;
+            case "*": return result = num1 * num2;
             case "/":
                 if (num2 == 0) throw new ArithmeticException("Divisão por zero");
-                return num1 / num2;
+                return result = num1 / num2;
             default:
                 throw new IllegalArgumentException("Operador inválido\n");
         }
