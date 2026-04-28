@@ -14,9 +14,7 @@ public class CalculatorRun {
         calculator.setOperator(getOperator(sc));
         calculator.setNum2(getNum2(sc));
 
-        // Executar o metodo calculate()
         calculator.calculate(calculator.getNum1(),calculator.getOperator(),calculator.getNum2());
-        // Executar o metodo toString()
         System.out.println(calculator);
     }
 
